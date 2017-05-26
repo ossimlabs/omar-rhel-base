@@ -1,0 +1,10 @@
+node(""){
+   stage("Checkout"){
+
+   }
+   stage("Download Container"){
+      sh "docker pull registry.access.redhat.com/rhel7/rhel"
+   }
+
+
+}
